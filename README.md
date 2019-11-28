@@ -10,7 +10,7 @@
      - Adição
          - Adicionar uma nova reserva.
      - Remoção
-        - Remover uma determinada reserva.
+        - Deleção lógica de uma determinada reserva.
         
 
 ### EndPoints da API :
