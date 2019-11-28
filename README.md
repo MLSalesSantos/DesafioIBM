@@ -29,7 +29,7 @@
 
 - Salvar uma determinada reserva :
      - Tipo de Request: POST
-       - localhost:3000/reservas
+       - http://localhost:3000/reservas
         - ```
           {  
     		"tipo": "HARD",
@@ -39,7 +39,7 @@
           ```
 - Atualizar uma determinada reserva :
      - Tipo de Request: PUT
-       - localhost:3000/reservas/{id}
+       - http://localhost:3000/reservas/{id}
        - ```
        	 {
     	   "tipo": "HARD",
@@ -50,7 +50,7 @@
 	 
 - Remover uma determinada reserva :
      - Tipo de Request: DELETE
-         - localhost:3000/reservas/cancelar/{id}
+         - http://localhost:3000/reservas/cancelar/{id}
          - ```
            {
 	       "tipo": "HARD",				
