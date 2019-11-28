@@ -4,13 +4,13 @@
 - A aplicação, em sua primeira inicialização estará com a base zerada.
 - O usuário possui as opções:
      - Listagem
-         - Listará todos, Listar por.
+         - Listará todas as reservas
      - Busca
-         - Verificará se o planeta buscado consta na base de dados.
+         - Verificará se a reserva buscada consta na base de dados.
      - Adição
-         - Adicionar um novo planeta.
+         - Adicionar uma nova reserva.
      - Remoção
-        - Remover um planeta.
+        - Remover uma determinada reserva.
         
 
 ### EndPoints da API :
@@ -37,6 +37,7 @@
     		"fimEm": "2018-05-30T19:00:00Z"
           }
           ```
+	  
 - Atualizar uma determinada reserva :
      - Tipo de Request: PUT
        - http://localhost:3000/reservas/{id}
